@@ -3142,50 +3142,6 @@
 			)
 		)
 	)
-	(global_label "PDM_DATA5"
-		(shape input)
-		(at 292.1 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07a7f721-e182-4a69-9e58-7ed9ccdc26a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5315 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PDM_DATA2"
-		(shape input)
-		(at 292.1 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a00fd9a-18f6-4772-9e86-db4b6563bcbb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5315 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PDM_CLK-IN"
 		(shape input)
 		(at 350.52 36.83 180)
@@ -3274,28 +3230,6 @@
 			)
 		)
 	)
-	(global_label "PDM_DATA3"
-		(shape input)
-		(at 292.1 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34f29302-af54-4c5d-8241-32b949a0fc4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5315 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PDM_DATA0"
 		(shape input)
 		(at 215.9 62.23 180)
@@ -3309,6 +3243,28 @@
 		(uuid "38c4b9a8-a3b2-4891-a8f1-552fd5519b7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 202.3315 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDM_DATA3"
+		(shape input)
+		(at 292.1 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44e94718-fc51-4463-9602-a7ca5191e5ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5315 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,28 +3384,6 @@
 			)
 		)
 	)
-	(global_label "PDM_DATA6"
-		(shape input)
-		(at 292.1 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5350f98d-718d-491f-8624-ce06310c3462")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5315 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PDM_CLK0"
 		(shape input)
 		(at 347.98 53.34 180)
@@ -3463,6 +3397,50 @@
 		(uuid "53cc0f1e-3c82-4395-95be-841060f56c34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 335.2582 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDM_DATA6"
+		(shape input)
+		(at 292.1 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64c01265-981d-4318-b45b-cf2e08e01215")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDM_DATA7"
+		(shape input)
+		(at 292.1 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f502cac-1fc1-4985-8cfd-15d33ec460c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5315 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,6 +3560,28 @@
 			)
 		)
 	)
+	(global_label "PDM_DATA5"
+		(shape input)
+		(at 292.1 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2e2d141-b3d3-4de3-9527-8b3e13ef1caa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5315 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PDM_DATA4"
 		(shape input)
 		(at 292.1 73.66 180)
@@ -3628,7 +3628,7 @@
 	)
 	(global_label "PDM_DATA4"
 		(shape input)
-		(at 292.1 53.34 180)
+		(at 292.1 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3636,9 +3636,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b17b2660-1fd5-49aa-a2ab-4569486d4947")
+		(uuid "c588866d-d5f3-458e-9ff8-5bd34908bf0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5315 53.34 0)
+			(at 278.5315 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 			)
 		)
 	)
-	(global_label "PDM_DATA7"
+	(global_label "PDM_DATA2"
 		(shape input)
 		(at 292.1 45.72 180)
 		(fields_autoplaced yes)
@@ -3658,7 +3658,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c1b66c05-5d24-45fe-84f6-d8ad8a7c30e5")
+		(uuid "c9e17143-b0fc-45c9-a5cc-9f44bd567b27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 278.5315 45.72 0)
 			(effects
@@ -4865,7 +4865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal"
 			(at 297.18 55.88 0)
 			(effects
 				(font
@@ -7713,7 +7713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal"
 			(at 297.18 81.28 0)
 			(effects
 				(font
