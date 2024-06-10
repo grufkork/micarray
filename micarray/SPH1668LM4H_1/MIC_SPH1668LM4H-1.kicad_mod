@@ -72,6 +72,7 @@
 		)
 		(fill none)
 		(layer "F.Cu")
+		(net 1)
 		(uuid "4ce15426-7832-48c7-8ade-ee8d20fec77e")
 	)
 	(fp_poly
