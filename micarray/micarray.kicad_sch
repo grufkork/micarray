@@ -3977,7 +3977,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77014"
+		(property "LCSC Part #" "C77055"
 			(at 153.67 119.38 0)
 			(effects
 				(font
@@ -4284,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77014"
+		(property "LCSC Part #" "C77055"
 			(at 153.67 95.25 0)
 			(effects
 				(font
@@ -4362,7 +4362,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C126538"
+		(property "LCSC Part #" "C71653"
 			(at 139.7 30.48 0)
 			(effects
 				(font
@@ -4573,7 +4573,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C126538"
+		(property "LCSC Part #" "C71653"
 			(at 422.91 36.83 0)
 			(effects
 				(font
@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPH1668LM4H_1:MIC_SPH1668LM4H-1"
+		(property "Footprint" "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm"
 			(at 85.09 128.27 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77014"
+		(property "LCSC Part #" "C77055"
 			(at 153.67 30.48 0)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C126538"
+		(property "LCSC Part #" "C71653"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77014"
+		(property "LCSC Part #" "C77055"
 			(at 436.88 36.83 0)
 			(effects
 				(font
@@ -5714,7 +5714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x3.6mm_P0.4mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 394.97 38.1 0)
 			(effects
 				(font
@@ -6042,7 +6042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C126538"
+		(property "LCSC Part #" "C71653"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -6847,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPH1668LM4H_1:MIC_SPH1668LM4H-1"
+		(property "Footprint" "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm"
 			(at 85.09 39.37 0)
 			(effects
 				(font
@@ -7413,7 +7413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C126538"
+		(property "LCSC Part #" "C71653"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -7596,7 +7596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPH1668LM4H_1:MIC_SPH1668LM4H-1"
+		(property "Footprint" "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm"
 			(at 85.09 63.5 0)
 			(effects
 				(font
@@ -8548,7 +8548,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C77014"
+		(property "LCSC Part #" "C77055"
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -8598,7 +8598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPH1668LM4H_1:MIC_SPH1668LM4H-1"
+		(property "Footprint" "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm"
 			(at 85.09 104.14 0)
 			(effects
 				(font
