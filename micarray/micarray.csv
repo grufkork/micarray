@@ -1,0 +1,11 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J2";"PinHeader_2x05_P2.54mm_Horizontal";1;"Next";;;
+2;"C8,C4,C10,C2,C6";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";5;"100n";;;
+3;"R3,R2,R5,R7,R13,R6,R12,R11,R4,R8,R9,R1,R10";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";13;"33";;;
+4;"MK4,MK1,MK3,MK2";"MIC_SPH1668LM4H-1";4;"SPH1668LM4H-1";;;
+5;"L5,L2,L4,L3,L1";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";5;"600R";;;
+6;"C7,C1,C9,C3,C5";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";5;"1000p";;;
+7;"J1";"PinSocket_2x05_P2.54mm_Horizontal";1;"Previous";;;
+8;"IC1";"TSSOP-14_4.4x3.6mm_P0.4mm";1;"74LCX125MTCX";;;
+9;"J3";"PinHeader_2x06_P2.54mm_Horizontal";1;"MCHStreamer J3";;;
+10;"R14";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"0";;;
