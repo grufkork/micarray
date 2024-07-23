@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74LCX125MTCX")(type "KiCad")(uri "D:/_/elektronik/micarray/micarray/74LCX125MTCX/74LCX125MTCX.kicad_sym")(options "")(descr ""))
+  (lib (name "SPH1668LM4H-1")(type "KiCad")(uri "D:/_/elektronik/micarray/micarray/SPH1668LM4H_1/SPH1668LM4H-1.kicad_sym")(options "")(descr ""))
+)
