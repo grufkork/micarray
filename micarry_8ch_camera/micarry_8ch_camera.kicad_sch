@@ -4093,6 +4093,28 @@
 	)
 	(global_label "PDM_CLK1"
 		(shape input)
+		(at 39.37 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4353601c-f344-4e54-9439-92dc857b4fab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.6482 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDM_CLK1"
+		(shape input)
 		(at 34.29 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4157,6 +4179,28 @@
 			)
 		)
 	)
+	(global_label "PDM_CLK5"
+		(shape input)
+		(at 181.61 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5adf9c21-1732-42e4-a449-dc021c21032a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.8882 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PDM_CLK4"
 		(shape input)
 		(at 186.69 69.85 180)
@@ -4170,6 +4214,28 @@
 		(uuid "60bf9445-0e0d-40b3-8417-46a325ce6581")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.9682 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDM_CLK0"
+		(shape input)
+		(at 39.37 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69e90426-8115-409c-a129-b96818503950")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.6482 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,6 +4263,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDM_CLK4"
+		(shape input)
+		(at 181.61 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7aac195d-29f6-49a8-8d0f-e80e7a30b8ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.8882 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4245,50 +4333,6 @@
 			)
 		)
 	)
-	(global_label "PDM_CLK0"
-		(shape input)
-		(at 39.37 252.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b55de0a2-de57-4e20-9639-6fa160a5222c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.6482 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PDM_CLK5"
-		(shape input)
-		(at 181.61 245.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0922546-f6cd-4f8e-b6b8-2953cd8e82f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.8882 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PDM_CLK5"
 		(shape input)
 		(at 186.69 93.98 180)
@@ -4302,28 +4346,6 @@
 		(uuid "d844cc07-b67b-4fbf-aecd-c70e0141d042")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.9682 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PDM_CLK4"
-		(shape input)
-		(at 181.61 252.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dee79dce-a7e8-4762-8a52-cf9de66369dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.8882 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,28 +4390,6 @@
 		(uuid "ef699366-e850-421b-92fc-f4f70f93a561")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 10.5615 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PDM_CLK1"
-		(shape input)
-		(at 39.37 245.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f26ddd2f-17a5-4531-8c85-d39b8d0d7edd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.6482 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x06_P2.00mm_Vertical"
 			(at 31.75 35.56 0)
 			(effects
 				(font

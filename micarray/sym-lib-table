@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SPH1668LM4H-1")(type "KiCad")(uri "${KIPRJMOD}/SPH1668LM4H_1/SPH1668LM4H-1.kicad_sym")(options "")(descr ""))
   (lib (name "74LCX125MTCX")(type "Legacy")(uri "${KIPRJMOD}/74LCX125MTCX/74LCX125MTCX.lib")(options "")(descr ""))
+  (lib (name "2024-08-08_08-44-14")(type "KiCad")(uri "D:/_/elektronik/micarray/libs/ul_IM73D122V01XTMA1/KiCADv6/2024-08-08_08-44-14.kicad_sym")(options "")(descr ""))
 )
