@@ -11405,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "150p"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "12b73573-42f3-4737-9fa7-69efe2292cf5")
@@ -11455,7 +11455,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C126554"
+		(property "LCSC Part #" "C37298"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

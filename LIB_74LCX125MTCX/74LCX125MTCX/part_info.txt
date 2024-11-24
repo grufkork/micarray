@@ -1,9 +1,0 @@
-Manufacturer=onsemi
-PartNumber=74LCX125MTCX
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=14
-Version=3.1
-Released=2021-02-22 10:32:35
-Downloaded=2024-06-04 09:36:41
-3D=Y
