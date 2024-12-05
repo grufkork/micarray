@@ -1,11 +1,17 @@
 # 16-channel Microphone Array for Spatial Audio Recording
-This is an inexpensive 16-channel MEMS microphone array for recording spatial audio. It can  be used for creating immersive audio/video content, locating mechanical faults, tracking moving objects in a room and more.
+This is an inexpensive 16-channel MEMS microphone array for recording spatial audio made in KiCad 8.0. It can  be used for creating immersive audio/video content, locating mechanical faults, tracking moving objects in a room and more.
+
+This design is developed for the [Build-Your-Own Ambisonic Microphone Arrays](https://github.com/AppliedAcousticsChalmers/ambisonic-microphone-arrays) project, where you can also find more information regarding processing of the resulting recordings.
 
 The array consists of four identical boards connected in a circle, allowing for low manufacturing costs (<100$ total, assembly included). These are then placed around an acoustically occluding sphere, emulating a persons head and allowing for generating realistic spatial audio. 
 
-![](https://github.com/grufkork/micarray/blob/617b07e39810f13811206140864eb196cf2ee92b/imgs/16ch_sphere.jpeg)
+![](https://github.com/grufkork/micarray/blob/8941890ad8e700dc878425aede164a82e50adaf4/imgs/16ch_sphere.jpg)
+
+![](https://github.com/grufkork/micarray/blob/8941890ad8e700dc878425aede164a82e50adaf4/imgs/16ch.jpg)
 
 The array is connected to the [MiniDSP MCHStreamer Lite](https://www.minidsp.com/products/usb-audio-interface/mchstreamer-lite) sound card which receives and digitises the 8x PDM output (the non-lite version should work too, but has not been tested). 
+
+
 ### File structure
 
 | Directory           | Contents                                                                                                      |
@@ -16,7 +22,7 @@ The array is connected to the [MiniDSP MCHStreamer Lite](https://www.minidsp.com
 | 3dcammodel          | 3D-scan of 360° camera and visualisations                                                                     |
 
 ### Ordering
-Production files are generated using [JLC Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin. All parts have `LCSC Part #`-fields so they can be assembled by JLC, but I would still recommend double checking everything, in particular small & cheap components so they have not gotten low availability. The full array consists of 4 quarter pieces connected in a circle. JLC minimum order size is 5, but having an extra module at hand has proven to be useful as all our orders have always had one mic with worsened performance. Whether this is due to JLC:s manufacturing process, errors in manufacturing, damages during transport or just bad luck is not known.
+Production files are generated using [JLC Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin for KiCad 8.0. All parts have `LCSC Part #`-fields so they can be assembled by JLC, but I would still recommend double checking everything, in particular small & cheap components so they have not gotten low availability. The full array consists of 4 quarter pieces connected in a circle. JLC minimum order size is 5, but having an extra module at hand has proven to be useful as all our orders have always had one mic with worsened performance. Whether this is due to JLC:s manufacturing process, errors in manufacturing, damages during transport or just bad luck is not known.
 
 ### Assembly
 #### Shortening the inter-board headers
@@ -41,7 +47,7 @@ The mics used are the Infineon IM73D122V01. They appear to currently be the best
 The `stable` branch is the main, cleaned-up version of the old development `shrinkening` branch. 
 
 ### Troubleshooting
-The primary problem you may experience is massive amounts of noise on one or several channels. This appears to be caused by the clock signal from the MCHStreamer ringing (overshooting) strongly. To prevent this, a 150pF capacitor has been connected between ground and the clock input. If you are still experiencing problems, soldering some extra capacitance between `GND` and `PDM_CLK-IN` on the backside of one of the inter-board headers should resolve the issue. 
+The primary problem you may experience is massive amounts of noise on one or several channels. This appears to be caused by the clock signal from the MCHStreamer ringing (overshooting) strongly. To prevent this, a 150pF capacitor is included in the design, connected between ground and the clock input. However, if you are still experiencing problems, soldering on some additional capacitance between `GND` and `PDM_CLK-IN` on the backside of one of the inter-board headers should resolve the issue. This fix is visible in the second image above, being the two yellow wires sticking out from one of the connectors.
 
 
 
